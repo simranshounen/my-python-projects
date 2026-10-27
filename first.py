@@ -1,8 +1,6 @@
-#ask their name
-name =input("what is your name? ").strip().title()
+x = float(input ("what's x : "))
+y = float(input ("what is y : "))
 
-# split the name just write the first name of the user
-first, last = name.split(" ")
+z =round(x+y)
 
-#hello            
-print(f"hello, {name}")
+print(f"{z:,}")
