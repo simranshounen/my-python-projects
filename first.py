@@ -1,5 +1,8 @@
 #ask their name
-name =input("what is your name? ")
+name =input("what is your name? ").strip().title()
 
-#hello 
-print("hello, " + name )
+# split the name just write the first name of the user
+first, last = name.split(" ")
+
+#hello            
+print(f"hello, {name}")
